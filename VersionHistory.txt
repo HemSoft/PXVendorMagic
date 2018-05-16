@@ -1,0 +1,6 @@
+V1.0.1
+- Important bug fixed -- Only interact with vendors with gold currency type.
+
+V1.0.0
+- First version. This is functionality extracted from PhaeroX Info Panel into its own Addon.
+- Vendor automation. This section is intended to automate the purchasing of style items such as Molybdenum, Bone, etc. and runes from the ESO ingame vendor. You set the amount you want of each in your inventory, the max price per unit, the max gold you want to spend in total per session, and the addon will take care of the rest. Let's say you want to always have 25 of each in your inventory. Then lets say you have 21 Molybdenum, this addon will buy 4 Molybdenum and move on to the next. It will not got above the set spending limits per visit. Use this with caution and at your own risk. This was made to avoid the tedious task of buying a couple hundred style materials manually. This feature is disabled by default.

@@ -1,0 +1,29 @@
+## Title: PhaeroX Vendor Magic
+## APIVersion: 100022 100023
+## Description: Automatically buy style and rune items from vendor according to your settings.
+## Version: 1.0.1
+## Author: |c33BBCCPhaeroX|r
+## OptionalDependsOn: LibStub LibAddonMenu-2.0
+## SavedVariables: PXVendorMagicSavedVariables
+
+LibStub\LibStub.lua
+LibAddonMenu-2.0\LibAddonMenu-2.0.lua
+
+LibAddonMenu-2.0\controls\panel.lua
+LibAddonMenu-2.0\controls\submenu.lua
+LibAddonMenu-2.0\controls\button.lua
+LibAddonMenu-2.0\controls\checkbox.lua
+LibAddonMenu-2.0\controls\colorpicker.lua
+LibAddonMenu-2.0\controls\custom.lua
+LibAddonMenu-2.0\controls\description.lua
+LibAddonMenu-2.0\controls\dropdown.lua
+LibAddonMenu-2.0\controls\editbox.lua
+LibAddonMenu-2.0\controls\header.lua
+LibAddonMenu-2.0\controls\slider.lua
+LibAddonMenu-2.0\controls\texture.lua
+LibAddonMenu-2.0\controls\iconpicker.lua
+LibAddonMenu-2.0\controls\divider.lua
+
+Language\$(language).lua
+PXVendorMagic.lua
+PXVendorMagicSettings.lua
