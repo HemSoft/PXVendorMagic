@@ -1,3 +1,6 @@
+V1.0.2
+- Forgot to un-comment the buy command after testing :)
+
 V1.0.1
 - Important bug fixed -- Only interact with vendors with gold currency type.
 

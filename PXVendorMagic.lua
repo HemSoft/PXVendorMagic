@@ -67,14 +67,10 @@ function PXVendorMagicAddon:Initialize()
                   if (PXVendorMagicAddon.savedVariables.enableVendorAutomationDebugging) then
                     d('PXVM -- Buying ' .. toBuy .. ' of ' .. name .. ' @' .. self:MoneyString(price) .. ' = ' .. self:MoneyString(toBuy * price))
                   end
-                  --BuyStoreItem(x, toBuy)
+                  BuyStoreItem(x, toBuy)
                   goldSpent = goldSpent + (toBuy * price)
                 else
                   if (PXVendorMagicAddon.savedVariables.enableVendorAutomationDebugging) then
-                    --d('PXVM -- price = ' .. price)
-                    --d('PXVM -- PXVendorMagicAddon.savedVariables.vendorAutomationMaxUnitPrice = ' .. PXVendorMagicAddon.savedVariables.vendorAutomationMaxUnitPrice)
-                    --d('PXVM -- toBuy = ' .. toBuy)
-                    --d('PXVM -- name = ' .. name)
                     d('PXVM -- Price per unit ' .. price .. ' exceeds ' .. PXVendorMagicAddon.savedVariables.vendorAutomationMaxUnitPrice .. '. Not buying ' .. toBuy .. ' of ' .. name .. ' @' .. self:MoneyString(price) .. ' = ' .. self:MoneyString(toBuy * price))
                   end
                 end
