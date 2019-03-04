@@ -1,7 +1,7 @@
 ## Title: PhaeroX Vendor Magic
-## APIVersion: 100022 100023
+## APIVersion: 100026
 ## Description: Automatically buy style and rune items from vendor according to your settings.
-## Version: 1.0.1
+## Version: 1.0.4
 ## Author: |c33BBCCPhaeroX|r
 ## OptionalDependsOn: LibStub LibAddonMenu-2.0
 ## SavedVariables: PXVendorMagicSavedVariables
