@@ -1,3 +1,6 @@
+V1.05
+- API bump for Elsweyr.
+
 V1.0.4
 - API bump for Wrathstone.
 
