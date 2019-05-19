@@ -1,5 +1,6 @@
-V1.05
+V1.0.5
 - API bump for Elsweyr.
+- Made LibAddonMenu-2.0 an external dependency.
 
 V1.0.4
 - API bump for Wrathstone.
